@@ -1,0 +1,19 @@
+.game-grid-cell {
+    -fx-background-color: "#262626";
+}
+
+.digitalLetters {
+	-fx-font-family: "Let's go Digital";
+    -fx-font-size: 16;
+    -fx-fill: yellow;
+    -fx-text-fill: yellow;
+/*    -fx-background-color: "#262626";
+   	    */
+}
+
+.sidebar-headline {
+	-fx-font-weight: bold;
+	-fx-font-size: 16;
+	-fx-background-insets: 0 1 1 0 ;
+	-fx-text-fill: "#989898"
+}
