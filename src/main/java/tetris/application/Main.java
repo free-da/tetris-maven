@@ -12,7 +12,7 @@ public class Main extends Application {
 
 	@Override
     public void start(final Stage stage) throws Exception {
-	    	URL fxmlLocation = getClass().getResource("resources/GameBoard.fxml");
+	    	URL fxmlLocation = getClass().getResource("/GameBoard.fxml");
 	    	FXMLLoader loader = new FXMLLoader(fxmlLocation);
 		//FXMLLoader loader = new FXMLLoader(getClass().getResource("src/main/java/tetris/application/GameBoard.fxml"));
 		Parent root = (Parent)loader.load();
